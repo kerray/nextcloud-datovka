@@ -1,0 +1,15 @@
+{
+    "name": "Databox",
+    "description": "Integration of Czech &#39;datová schránka&#39; databox",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Jaromír Matýšek"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

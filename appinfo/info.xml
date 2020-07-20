@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>databox</id>
+    <name>Databox</name>
+    <summary>Integration of Czech &#39;datová schránka&#39; databox</summary>
+    <description><![CDATA[Integration of Czech &#39;datová schránka&#39; databox]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="kerray@kerray.cz" homepage="https://github.com/kerray/nextcloud-datovka/">Jaromír Matýšek</author>
+    <namespace>Databox</namespace>
+    <category>integration</category>
+    <category>social</category>
+    <bugs>https://github.com/kerray/nextcloud-datovka/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Databox</name>
+            <route>databox.page.index</route>
+        </navigation>
+    </navigations>
+</info>
